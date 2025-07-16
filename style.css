@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.sidebar, .header, .main-content, .project-container, .announcement-container, .trending-container {
+    border-style: solid;
+}
+.sidebar {
+    grid-row: 1 / 3;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
